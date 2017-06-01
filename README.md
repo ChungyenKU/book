@@ -492,44 +492,33 @@ $(document).ready(function() {
             </div>
         </div>
         <div class="middlebox">
-         <div class="bookbox">
-			<img src="https://www.kadokawa.com.tw/Upload/product_201704271639341.jpg" width="80px" height="100px" style="margin-top: 5px;margin-left: 10px;"align="left"></img>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">台灣角川</div>
-			<div align="left"  style="margin-top: 15px";><a href="https://www.kadokawa.com.tw/p1-products_detail.php?id=8ab9LkRLpIQXTPQaPX5JCCzDeWXAAdIMRcBn0UqBN9Tb" style="color:#348F33; text-decoration:none;">Taipei Walker 241期</a></div>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">Taipei Walker編輯部</div>
-			
-		</div>
-		<div class="bookbox">
-			<img src="https://www.kadokawa.com.tw/Upload/product_201705251645151.jpg" width="80px" height="100px" style="margin-top: 5px;margin-left: 10px;"align="left"></img>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">台灣角川</div>
-
-			<div align="left"  style="margin-top: 15px";><a href="https://www.kadokawa.com.tw/p1-products_detail.php?id=54dfROcNQ5DmFrBS9i6YUVtJQI6uWv6uW-QQeYQnozgw" style="color:#348F33; text-decoration:none;">Taipei Walker 242期</a></div>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">Taipei Walker編輯部</div>
-			
-		</div>
-		<div class="bookbox">
-			
-			<img src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/CN1/142/75/CN11427514.jpg&v=590181da&w=348&h=348" width="80px" height="100px" style="margin-top: 5px;margin-left:10px;"align="left"></img>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">博客來</div>
-			<div align="left" style="margin-top: 15px";><a href="http://www.books.com.tw/products/CN11427514" style="color:#348F33; text-decoration:none;">生物與非生物之間</a></div>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">福岡伸一</div>
-		
-		</div>
-		<div class="bookbox">
-
-			<img src="http://im2.book.com.tw/image/getImage?i=http://www.books.com.tw/img/CN1/136/82/CN11368211.jpg&v=57d38c4b&w=348&h=348
-		" width="80px" height="100px" style="margin-top: 5px;margin-left: 10px;"align="left"></img>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">博客來</div>
-			<div align="left" style="margin-top: 15px";><a href="http://www.books.com.tw/products/CN11368211?loc=P_asb_001" style="color:#348F33; text-decoration:none;">星空帝國：中國古代星宿揭秘</a></div>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">徐剛等</div>
-		</div>
-		<div class="bookbox">
-
-			<img src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/F01/390/60/F013906030.jpg&v=5913a2bd&w=348&h=348" width="80px" height="100px" style="margin-top: 5px;margin-left: 10px;"align="left"></img>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">博客來</div>
-			<div align="left" style="margin-top: 15px";><a href="http://www.books.com.tw/products/F013906030?loc=P_005_011" style="color:#348F33; text-decoration:none;">The Fog</a></div>
-			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">MacLear, Kyo/ Pak, Kenard (ILT)</div>
-		</div>
+        <div class="widebox">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="http://imgur.com/u4N3wpJ.jpg" style="width:100%" height="400">
+                    <div class="text">Caption Text</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="http://d.ifengimg.com/mw604/y0.ifengimg.com/ifengimcp/pic/20160418/5628dd6ecd9fa100f371_size30_w521_h534.jpg" style="width:100%" height="400">
+                    <div class="text">Caption Two</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="http://pic.9ht.com/up/2016-7/20167417109115.jpg" style="width:100%" height="400">
+                    <div class="text">Caption Three</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
         </div>
         <div class="rightbox">
           <div class="searchbox">
@@ -634,8 +623,49 @@ $(document).ready(function() {
             </div>
         </div>-->
 	<div class="box">
-               
+                <div class="bookbox">
+			<img src="https://www.kadokawa.com.tw/Upload/product_201704271639341.jpg" width="80px" height="100px" style="margin-top: 5px;margin-left: 10px;"align="left"></img>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">台灣角川</div>
+			<div align="left"  style="margin-top: 15px";><a href="https://www.kadokawa.com.tw/p1-products_detail.php?id=8ab9LkRLpIQXTPQaPX5JCCzDeWXAAdIMRcBn0UqBN9Tb" style="color:#348F33; text-decoration:none;">Taipei Walker 241期</a></div>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">Taipei Walker編輯部</div>
+			
+		</div>
+		<div class="bookbox">
+			<img src="https://www.kadokawa.com.tw/Upload/product_201705251645151.jpg" width="80px" height="100px" style="margin-top: 5px;margin-left: 10px;"align="left"></img>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">台灣角川</div>
 
+			<div align="left"  style="margin-top: 15px";><a href="https://www.kadokawa.com.tw/p1-products_detail.php?id=54dfROcNQ5DmFrBS9i6YUVtJQI6uWv6uW-QQeYQnozgw" style="color:#348F33; text-decoration:none;">Taipei Walker 242期</a></div>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">Taipei Walker編輯部</div>
+			
+		</div>
+		<div class="bookbox">
+			
+			<img src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/CN1/142/75/CN11427514.jpg&v=590181da&w=348&h=348" width="80px" height="100px" style="margin-top: 5px;margin-left:10px;"align="left"></img>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">博客來</div>
+			<div align="left" style="margin-top: 15px";><a href="http://www.books.com.tw/products/CN11427514" style="color:#348F33; text-decoration:none;">生物與非生物之間</a></div>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">福岡伸一</div>
+		
+		</div>
+		<div class="bookbox">
+
+			<img src="http://im2.book.com.tw/image/getImage?i=http://www.books.com.tw/img/CN1/136/82/CN11368211.jpg&v=57d38c4b&w=348&h=348
+		" width="80px" height="100px" style="margin-top: 5px;margin-left: 10px;"align="left"></img>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">博客來</div>
+			<div align="left" style="margin-top: 15px";><a href="http://www.books.com.tw/products/CN11368211?loc=P_asb_001" style="color:#348F33; text-decoration:none;">星空帝國：中國古代星宿揭秘</a></div>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">徐剛等</div>
+		</div>
+		<div class="bookbox">
+
+			<img src="http://im1.book.com.tw/image/getImage?i=http://www.books.com.tw/img/F01/390/60/F013906030.jpg&v=5913a2bd&w=348&h=348" width="80px" height="100px" style="margin-top: 5px;margin-left: 10px;"align="left"></img>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:red;">博客來</div>
+			<div align="left" style="margin-top: 15px";><a href="http://www.books.com.tw/products/F013906030?loc=P_005_011" style="color:#348F33; text-decoration:none;">The Fog</a></div>
+			<div align="right" style="margin-top: 5px;font-family:微軟正黑體;font-size:5px;color:blue;">MacLear, Kyo/ Pak, Kenard (ILT)</div>
+		</div>
+                <div class="bookbox">
+
+			<div align="right" style="margin-top: 5px";><a href="https://nonuclear.github.io/book/" style="color:#348F33; text-decoration:none;">more>></a></div>
+	
+		</div>
         </div>
     </div>
 </body>
